@@ -9,6 +9,7 @@ import {
   Container
 } from '@chakra-ui/react';
 import Navbar from '@/components/Navbar';
+import Main from '@/components/Main';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -18,9 +19,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <Container as="main" mt="20">
-        main
-      </Container> */}
+      <Main />
     </>
   );
 }
