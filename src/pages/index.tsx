@@ -10,6 +10,7 @@ import {
 } from '@chakra-ui/react';
 import Navbar from '@/components/Navbar';
 import Main from '@/components/Main';
+import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <>
       <Navbar />
       <Main />
+      <Footer />
     </>
   );
 }
