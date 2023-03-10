@@ -29,6 +29,11 @@ export const Button = {
       color: 'default.primary'
     },
 
+    outlineColorDark: {
+      bg: 'default.light',
+      color: 'default.dark'
+    },
+
     danger: {
       bg: 'default.red',
       color: 'default.light'

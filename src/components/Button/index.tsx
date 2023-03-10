@@ -11,7 +11,13 @@ interface ButtonProps extends ButtonPropsChakra {
   backgroundColor?: string;
   children?: React.ReactNode;
   size?: 'default' | 'lg' | 'md' | 'sm' | 'xs';
-  variant?: 'default' | 'primary' | 'secondary' | 'danger' | 'outline';
+  variant?:
+    | 'default'
+    | 'primary'
+    | 'secondary'
+    | 'danger'
+    | 'outline'
+    | 'outlineColorDark';
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 

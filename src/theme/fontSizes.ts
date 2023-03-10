@@ -4,5 +4,6 @@ export const fontSizes = {
   small: '12px',
   default: '14px',
   medium: '16px',
+  heading2: '20px',
   large: '24px',
 }
