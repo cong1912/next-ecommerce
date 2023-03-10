@@ -19,6 +19,7 @@ export const colors = {
     blue: {
       100: '#E3F0FF'
     },
-    Rectangle303: '#55BDC4'
+    Rectangle303: '#55BDC4',
+    pink: '#FFE3E3'
   }
 };
